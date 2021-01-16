@@ -15,7 +15,8 @@ public class CalculatorExecute {
         int division = c.division(40,5);
         System.out.println("c.substraccion(40,5)="+division);
 
-
+        int expo = c.division(40,5);
+        System.out.println("c.exponentiatios(40,5)="+expo);
 
 
 

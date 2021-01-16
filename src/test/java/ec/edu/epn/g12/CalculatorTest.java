@@ -46,6 +46,12 @@ public class CalculatorTest {
         assertEquals(6, c.multiplication(2,3));
     }
 
+    @Test
+    public void given_two_integers_when_exponentiation_then_ok(){
+        System.out.println("Test 4");
+        assertEquals(144, c.exponentiation(12,2));
+    }
+
     @After
     public void tearDown(){
         System.out.println("tearDown()");

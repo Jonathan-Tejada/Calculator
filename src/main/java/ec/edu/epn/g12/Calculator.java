@@ -27,6 +27,15 @@ public class Calculator {
         return a * b;
     }
 
+    public int exponentiation(int base, int exponente){
+        int c=1;
+
+        for (int i=0;i<exponente;i++){
+            c=c*base;
+        }
+        return c;
+    }
+
     public int getAns() {
         return ans;
     }
